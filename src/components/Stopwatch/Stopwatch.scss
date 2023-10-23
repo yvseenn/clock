@@ -1,0 +1,32 @@
+.div{
+    width: 30%;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #D4D9A6;
+    border: 3px solid #575B3A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    &__titulo{
+        font-size: 20px;
+        color: black;
+    }
+    &__clock{
+        font-size: 15px;
+        color: #8C382B;
+    }
+    &__botones{
+        display: flex;
+        gap: 20px;
+        &--boton{
+            background-color: #698D4B;
+            width: 100px;
+            height: 36px;
+            border: none;
+            border-radius: 10px;
+        }
+    }
+}

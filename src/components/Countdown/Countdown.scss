@@ -1,0 +1,30 @@
+.div{
+    width: 30%;
+    min-width: 300px;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #D4D9A6;
+    border: 3px solid #575B3A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    &__titulo{
+        font-size: 20px;
+        color: black;
+    }
+    &__clock{
+        font-size: 15px;
+        color: #8C382B;
+    }
+    &__input{
+        background-color: #698D4B;
+        width: 200px;
+        padding: 0px 20px;
+        height: 36px;
+        border: none;
+        border-radius: 10px;
+    }
+}
