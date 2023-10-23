@@ -4,23 +4,23 @@
     margin: 20px;
     padding: 20px;
     border-radius: 10px;
-    background-color: #D4D9A6;
-    border: 3px solid #575B3A;
+    // background-color: transparent;
+    // border: 3px solid pink;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     gap: 20px;
     &__titulo{
-        font-size: 20px;
+        font-size: 35px;
         color: black;
     }
     &__clock{
-        font-size: 15px;
+        font-size: 35px;
         color: #8C382B;
     }
     &__input{
-        background-color: #698D4B;
+        background-color: #08ae98;
         width: 200px;
         padding: 0px 20px;
         height: 36px;
