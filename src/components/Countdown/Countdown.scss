@@ -4,8 +4,6 @@
     margin: 20px;
     padding: 20px;
     border-radius: 10px;
-    // background-color: transparent;
-    // border: 3px solid pink;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -17,7 +15,6 @@
     }
     &__clock{
         font-size: 35px;
-        color: #8C382B;
     }
     &__input{
         background-color: #08ae98;
